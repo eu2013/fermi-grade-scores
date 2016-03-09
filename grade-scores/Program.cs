@@ -229,10 +229,10 @@ namespace grade_scores
             }
         }
 
-        public MyStudent Public_CheckLine(String strLine, int nLineNumber)
-        {
-            return CheckLine(strLine, nLineNumber);
-        }
+        //public MyStudent Public_CheckLine(String strLine, int nLineNumber)
+        //{
+        //    return CheckLine(strLine, nLineNumber);
+        //}
 
         protected MyStudent CheckLine(String strLine, int nLineNumber)
         {
