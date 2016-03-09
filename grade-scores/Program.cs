@@ -134,7 +134,7 @@ namespace grade_scores
                 Print(alStudent);
 
                 String strOutputPath = Path.GetDirectoryName(m_strPath) + "\\" +
-                    Path.GetFileNameWithoutExtension(m_strPath) + "-graded" + Path.GetExtension(m_strPath);
+                    Path.GetFileNameWithoutExtension(m_strPath) + "-graded.txt";// +Path.GetExtension(m_strPath);
                 MyOutput.GotInfo("The output file path is {0}", strOutputPath);
                 if (File.Exists(strOutputPath))
                 {
